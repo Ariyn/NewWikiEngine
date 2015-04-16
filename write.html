@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>write page</title>
+	<link href="./css/bootstrap.css" rel="stylesheet" type="text/css"/>
+	<STYLE>
+	#EditorDiv {
+		border:1px solid black;
+		border-radius:5px;
+		padding:10px;
+	}
+	</STYLE>
+</head>
+<body>
+	<div class="container">
+		<div id="EditorDiv">
+			<form action="./admit.php" method="post">
+				<div id="EditorHeader">
+				</div>
+
+				<div id="EditorMainContent">
+				
+					<div class="form-group">
+					    <label for="titleInput">Word Title</label>
+					    <input type="text" class="form-control" id="titleInput" name="title" placeholder="Title">
+					  </div>
+					<div class="form-group">
+						<textarea class="form-control" name="content" id="contentInput" rows="20"></textarea>
+					</div>
+				</div>
+
+				<div id="EditorFooter">
+					<button id="admitButton" class="btn btn-primary" type="submit">등록</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>

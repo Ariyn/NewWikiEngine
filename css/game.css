@@ -1,0 +1,206 @@
+#dont_scroll
+{
+	position:absolute;
+	z-index:-3;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+
+	background-color:black;
+}
+
+
+@media (min-width:320px) {
+	#game{
+		margin-top:-30px;
+	}
+
+	.container
+	{
+		width:100%;
+	}
+	.gamediv
+	{
+		overflow-x: auto;
+		overflow-y: hidden;
+
+		height: 200px;
+		/*border: 1px solid red;*/
+		margin-top: 30px;
+
+		-webkit-overflow-scrolling: touch;	
+	}
+	.gameDiv
+	{
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.table
+	{
+		margin-left:-6px;
+		width:98%;
+	}
+
+	#CiviListDiv
+	{
+		width:105%;
+		height:150px;
+	}
+	#HeroListDiv
+	{
+		display:hidden;
+	}
+	#LogListDiv
+	{
+		height:322px;
+	}
+	.progress
+	{
+		margin-top:5px;
+	}
+	.progress-bar
+	{
+		margin-left:-5%;
+		border-radius:4px;
+	}
+	#ProgressNameDiv
+	{
+		position:absolute;
+		z-index:3;
+		left:-5px;
+
+		text-align:center;
+
+		color:#555;
+	}
+	#LogNavigation{
+		overflow-x:hidden;
+		overflow-y:auto;
+	}
+	div[id*='LogFor_']{
+		height : 90%;
+		overflow-x:hidden;
+		overflow-y:auto;	
+	}
+	.GameLog{
+		position:relative;
+		min-height:22px;
+		max-height:40px;
+		width:98%;
+		margin: 2px 0 3px 3px;
+	}
+
+	.GameLog>span{
+		position:absolute;
+		-webkit-animation: myfirst 1s; /* Chrome, Safari, Opera */
+		animation: myfirst 1s;
+	}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes myfirst {
+	    from {top: 20px;}
+	    to {top:0px;}
+	}
+
+	/* Standard syntax */
+	@keyframes myfirst {
+	    from {top: 20px;}
+	    to {top:0px;}
+	}
+}
+@media (min-width:760px){
+	.container
+	{
+		width:100%;
+	}
+	.gamediv
+	{
+		overflow-x: auto;
+		overflow-y: hidden;
+
+		height: 200px;
+		/*border: 1px solid red;*/
+		margin-top: 30px;
+
+		-webkit-overflow-scrolling: touch;	
+	}
+	.gameDiv
+	{
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.table
+	{
+		margin-left:-6px;
+		width:98%;
+	}
+
+	#CiviListDiv
+	{
+		width:105%;
+	}
+	#HeroListDiv
+	{
+		
+	}
+	#LogListDiv
+	{
+		
+	}
+	.progress
+	{
+		margin-top:30px;
+	}
+	.progress-bar
+	{
+		margin-left:-5%;
+		border-radius:4px;
+	}
+	#ProgressNameDiv
+	{
+		position:absolute;
+		z-index:3;
+		left:-5px;
+
+		text-align:center;
+
+		color:#555;
+	}
+	#LogNavigation{
+		overflow-x:auto;
+		overflow-y:hidden;
+	}
+	div[id*='LogFor_']{
+		height : 90%;
+		overflow-x:hidden;
+		overflow-y:auto;	
+	}
+	.GameLog{
+		position:relative;
+		height:22px;
+		width:90%;
+		margin: 2px 0 2px 30px;
+	}
+
+	.GameLog>span{
+		position:absolute;
+		-webkit-animation: myfirst 1s; /* Chrome, Safari, Opera */
+		animation: myfirst 1s;
+	}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes myfirst {
+	    from {top: 20px;}
+	    to {top:0px;}
+	}
+
+	/* Standard syntax */
+	@keyframes myfirst {
+	    from {top: 20px;}
+	    to {top:0px;}
+	}
+}
+

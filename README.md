@@ -4,4 +4,7 @@
 ## trello
 https://trello.com/b/APNFVgPi/new-wiki
 
-*만들 기능*
+
+## 만들 기능
+1. 글쓰기
+
